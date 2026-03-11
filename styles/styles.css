@@ -17,7 +17,8 @@ img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 1px;
+    padding: 2px;
+    margin: 200;
     box-shadow: 0 0 30px gray;
 }
 
