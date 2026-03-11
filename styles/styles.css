@@ -3,6 +3,16 @@ nav {
     padding: 10px;
 }
 
+aside {
+    width: 200rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 20%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
 nav a {
     color: white;
     display: block;
@@ -18,7 +28,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    margin: 200;
+    margin: 20px;
     box-shadow: 0 0 30px gray;
 }
 
@@ -30,17 +40,6 @@ main {
     max-width: 840px;
 }
 
-aside {
-    width: 200rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 20%);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-
-}
-
 aside img {
     width: 200px;
     height: auto;
@@ -49,7 +48,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(0 0 0 / .2);
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 /);
     box-shadow: #000 rgb(0 0 0 / 20%);
 }
 
