@@ -87,10 +87,32 @@ h2 {
     margin: 0 5px;
 }
 
+.icon {
+    text-decoration: none;
+    width: 40px;
+    margin: 5%;
+}
+
 /* Footer */
 footer {
     margin-top: 15px;
     border-top: 1px solid rgb(0 0 0 / 20%);
     text-align: center;
     padding: 8px 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin: 2px;
+    padding: 1px 10px;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: white;
+    background-color: var(--color-accent2);
+    /* Цвет кнопки */
+    border-radius: 8px;
+    /* Закругленные углы */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    /* Плавный эффект при наведении */
 }
