@@ -16,26 +16,17 @@ nav {
     background-color: var(--primary-color);
     padding: 10px;
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-evenly;
+    <<<<<<< HEAD justify-content: space-evenly;
     align-items: center;
-=======
-    justify-content: center;
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
-    gap: 20px;
+    =======justify-content: center;
+    > > > > > > > e80467a6501c553714ec46629b99263c321c4913 gap: 20px;
 }
 
 nav a {
     color: var(--secondary-color);
     text-decoration: none;
     display: block;
-<<<<<<< HEAD
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-=======
     padding: 10px 15px;
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
     transition: 0.3s;
 }
 
@@ -52,19 +43,15 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-<<<<<<< HEAD
-    grid-column: 1/2;
+    <<<<<<< HEAD grid-column: 1/2;
     grid-row: 1/2;
-=======
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
+    ======= > > > > > > > e80467a6501c553714ec46629b99263c321c4913
 }
 
 h1 {
     color: var(--primary-color);
-<<<<<<< HEAD
-    border-bottom: 5px solid var(--secondary-color);
-=======
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
+    <<<<<<< HEAD border-bottom: 5px solid var(--secondary-color);
+    ======= > > > > > > > e80467a6501c553714ec46629b99263c321c4913
 }
 
 img {
@@ -81,15 +68,12 @@ p {
 }
 
 main {
-<<<<<<< HEAD
-    grid-column: 2/3;
+    <<<<<<< HEAD grid-column: 2/3;
     max-width: 840px;
     margin: 1rem;
-=======
-    max-width: 840px;
+    =======max-width: 840px;
     margin: 0 auto;
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
-    padding: 1rem;
+    > > > > > > > e80467a6501c553714ec46629b99263c321c4913 padding: 1rem;
 }
 
 aside img {
@@ -127,7 +111,7 @@ footer {
 
 aside h2 {
     margin-bottom: 10px;
-<<<<<<< HEAD
+    <<<<<<< HEAD
 }
 
 header,
@@ -142,7 +126,7 @@ footer {
     align-items: center;
 }
 
-main
-=======
+main=======
 }
->>>>>>> e80467a6501c553714ec46629b99263c321c4913
+
+> > > > > > > e80467a6501c553714ec46629b99263c321c4913
