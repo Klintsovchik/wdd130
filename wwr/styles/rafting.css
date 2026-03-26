@@ -21,6 +21,11 @@ body {
 header {
     background-color: var(--primary-color);
     color: var(--color-accent2);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-content: center;
+    gap: 10px;
+    padding: 20px 20px;
 }
 
 header,
@@ -34,6 +39,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
 }
 
 /* HERO Section */
@@ -41,6 +48,11 @@ h2 {
     position: relative;
     /* для абсолютного позиционирования дочерних элементов */
     max-width: 100%;
+}
+
+header img {
+    width: 80px;
+    height: auto;
 }
 
 .hero img {
@@ -87,6 +99,22 @@ h2 {
     margin: 0 5px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: auto;
+}
+
+.socialmedia img:hover {
+    transform: scale(1.2);
+    transition: 0, 3s;
+}
+
 .icon {
     text-decoration: none;
     width: 40px;
@@ -95,24 +123,81 @@ h2 {
 
 /* Footer */
 footer {
+    display: flex;
+    align-items: center;
     margin-top: 15px;
     border-top: 1px solid rgb(0 0 0 / 20%);
     text-align: center;
     padding: 8px 0;
 }
 
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
 nav ul li a {
-    display: inline-block;
     margin: 2px;
-    padding: 1px 10px;
+    padding: 5px 10px;
     text-decoration: none;
-    /* Убираем подчеркивание */
-    color: white;
+    color: #ffffff;
     background-color: var(--color-accent2);
-    /* Цвет кнопки */
     border-radius: 8px;
-    /* Закругленные углы */
     font-weight: bold;
-    transition: all 0.3s ease;
-    /* Плавный эффект при наведении */
+}
+
+nav ul li a:hover {
+    background-color: var(--color-text-light);
+    color: var(--color-accent1);
+    transition: 0.3s;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-content: center;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
+}
+
+.history {
+    text-align: center;
+}
+
+.history p {
+    line-height: 2;
+}
+
+.adventures-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.adventures-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.adventures-gallery figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.adventures-gallery img {
+    transition: transform 0.3s;
+}
+
+.adventures-gallery img:hover {
+    transform: scale(1.1);
 }
