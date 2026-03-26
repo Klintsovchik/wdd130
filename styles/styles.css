@@ -16,17 +16,18 @@ nav {
     background-color: var(--primary-color);
     padding: 10px;
     display: flex;
-    <<<<<<< HEAD justify-content: space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-    =======justify-content: center;
-    > > > > > > > e80467a6501c553714ec46629b99263c321c4913 gap: 20px;
+    gap: 20px;
 }
 
 nav a {
     color: var(--secondary-color);
     text-decoration: none;
     display: block;
-    padding: 10px 15px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     transition: 0.3s;
 }
 
@@ -43,15 +44,13 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    <<<<<<< HEAD grid-column: 1/2;
+    grid-column: 1/2;
     grid-row: 1/2;
-    ======= > > > > > > > e80467a6501c553714ec46629b99263c321c4913
 }
 
 h1 {
     color: var(--primary-color);
-    <<<<<<< HEAD border-bottom: 5px solid var(--secondary-color);
-    ======= > > > > > > > e80467a6501c553714ec46629b99263c321c4913
+    border-bottom: 5px solid var(--secondary-color);
 }
 
 img {
@@ -68,12 +67,10 @@ p {
 }
 
 main {
-    <<<<<<< HEAD grid-column: 2/3;
+    grid-column: 2/3;
     max-width: 840px;
     margin: 1rem;
-    =======max-width: 840px;
-    margin: 0 auto;
-    > > > > > > > e80467a6501c553714ec46629b99263c321c4913 padding: 1rem;
+    padding: 1rem;
 }
 
 aside img {
@@ -111,7 +108,6 @@ footer {
 
 aside h2 {
     margin-bottom: 10px;
-    <<<<<<< HEAD
 }
 
 header,
@@ -126,7 +122,4 @@ footer {
     align-items: center;
 }
 
-main=======
-}
-
-> > > > > > > e80467a6501c553714ec46629b99263c321c4913
+main
