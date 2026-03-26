@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #1e90ff;
+    --color-accent1: #264653;
+    --color-accent2: #ffd700;
+    --color-text-light: #ffffff;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--color-accent1);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--color-accent2);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* HERO Section */
+.hero {
+    position: relative;
+    /* для абсолютного позиционирования дочерних элементов */
+    max-width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: rgba(255, 215, 0, 0.5);
+    color: var(--color-text-light);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+    /* можно подстроить под контент */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 8px;
+}
+
+/* Social Media */
+.socialmedia a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: auto;
+    margin: 0 5px;
+}
+
+.icon {
+    text-decoration: none;
+    width: 40px;
+    margin: 5%;
+}
+
+/* Footer */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    text-align: center;
+    padding: 8px 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin: 2px;
+    padding: 1px 10px;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: white;
+    background-color: var(--color-accent2);
+    /* Цвет кнопки */
+    border-radius: 8px;
+    /* Закругленные углы */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    /* Плавный эффект при наведении */
+}
